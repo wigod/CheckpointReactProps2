@@ -1,0 +1,57 @@
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.thankBox{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.imgThankBox{
+    width: 220px;
+    height: 200px; 
+    position: absolute;   
+    top: 2rem;
+}
+.imgThankBox img{
+    width: 100%;
+    object-fit: cover;
+}
+.thankMsg{
+    width: 300px;
+    position: absolute;
+    bottom: 2rem;
+    text-align: center;
+    
+}
+.btnSelect{
+    position: absolute;  
+    bottom: 10rem;  
+    background-color: hsla(0, 0%, 0%, 0.212); 
+    color: hsl(25, 97%, 53%);
+    width: 250px;
+    height: 30px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.thankMsg p{
+    width: 295px;
+    font-size: 13px;
+    opacity: 0.6;   
+}
